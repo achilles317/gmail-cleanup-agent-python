@@ -60,19 +60,7 @@ SEARCH_QUERIES = {
 # the email is kept immediately without going to the LLM.
 # Use substrings from the actual email address or display name.
 KEEP_SENDERS = [
-    # Newsletters you read
-    "lenny",                  # Lenny's Newsletter (lenny@substack, lenny+how-i-a...)
-    "pragmaticengineer",      # The Pragmatic Engineer
-    "lonelyoctopus",          # Tina Huang
-    "substack",               # All Substack authors
-    "noreply@medium",         # Medium Daily Digest
-    "aispace",                # AI Space from Product Space
-    "productspace",           # AI Space from Product Space (alternate domain)
-    "aakash",                 # Aakash Gupta from Product Growth
-    "appfigures",             # Ariel from Appfigures
-    "departmentofproduct",    # Department of Product newsletter
-    "department of product",  # Department of Product (display name match)
-    # Job & career emails — keep all except Naukri (handled in rule-based archive above)
+      # Job & career emails — keep all except Naukri (handled in rule-based archive above)
     "linkedin",
     "foundit",
     "greenhouse",
